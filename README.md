@@ -16,12 +16,12 @@ torch==2.0.1+cu118
 torch-scatter==2.1.1+pt20cu118
 transformers==4.28.1
 ```
-> To install `torch-scatter`, please refer to the installation instructions on the [torch-scatter · PyPI](https://pypi.org/project/torch-scatter/) page.
+> Note: To install `torch-scatter`, please refer to the installation instructions on the [torch-scatter · PyPI](https://pypi.org/project/torch-scatter/) page.
 
 ## Data Preprocessing
 
 1. Download MultiSpanQA dataset from [MultiSpanQA Homepage](https://multi-span.github.io/).
-2. Move the two dataset settings to `./data/{DATASET_SETTING}/raw`, respectively
+2. Move the two dataset settings to `./data/{DATASET_SETTING}/raw`, respectively.
 3. Run 
 ```sh
 python ./data/preprocess.py --dataset_setting "{DATASET_SETTING}"
