@@ -2,7 +2,7 @@
     "run_name": "expanded-bert",
     "dataset_name": "MSQA-expanded",
     "model_name_or_path": "bert-base-uncased",
-    "data_dir": "./data/expand/preprocessed/",
+    "data_dir": "./data/expanded/preprocessed/",
     "do_train": false,
     "fp16": false,
     "per_device_eval_batch_size": 2,
