@@ -14,5 +14,5 @@
     "log_level": "info",
     "logging_steps": 1,
     "do_predict": true,
-    "output_dir": "/home/zhangph/models/CSS/paper_ckpts/f_bt_basic_epoch8_loss0_89/copy"
+    "output_dir": "{your-best-performing-checkpoint-directory}"
 }

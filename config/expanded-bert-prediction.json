@@ -1,8 +1,8 @@
 {
-    "run_name": "multispan-bert",
-    "dataset_name": "MSQA-multispan",
+    "run_name": "expanded-bert",
+    "dataset_name": "MSQA-expanded",
     "model_name_or_path": "bert-base-uncased",
-    "data_dir": "./data/multispan/preprocessed/",
+    "data_dir": "./data/expand/preprocessed/",
     "do_train": false,
     "fp16": false,
     "per_device_eval_batch_size": 2,
@@ -14,5 +14,5 @@
     "log_level": "info",
     "logging_steps": 1,
     "do_predict": true,
-    "output_dir": "/home/zhangph/models/CSS/paper_ckpts/f_bt_basic_epoch8_loss0_89/copy"
+    "output_dir": "{your-best-performing-checkpoint-directory}"
 }

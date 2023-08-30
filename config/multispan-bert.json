@@ -1,5 +1,5 @@
 {
-    "run_name": "bert-multispan",
+    "run_name": "multispan-bert",
     "dataset_name": "MSQA-multispan",
     "model_name_or_path": "bert-base-uncased",
     "data_dir": "./data/multispan/preprocessed/",
