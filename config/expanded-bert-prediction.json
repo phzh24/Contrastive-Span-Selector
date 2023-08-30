@@ -1,0 +1,18 @@
+{
+    "run_name": "multispan-bert",
+    "dataset_name": "MSQA-multispan",
+    "model_name_or_path": "bert-base-uncased",
+    "data_dir": "./data/multispan/preprocessed/",
+    "do_train": false,
+    "fp16": false,
+    "per_device_eval_batch_size": 2,
+    "gradient_accumulation_steps": 4,
+    "max_seq_length": 512,
+    "doc_stride": 128,
+    "overwrite_cache": false,
+    "report_to": "none",
+    "log_level": "info",
+    "logging_steps": 1,
+    "do_predict": true,
+    "output_dir": "/home/zhangph/models/CSS/paper_ckpts/f_bt_basic_epoch8_loss0_89/copy"
+}
