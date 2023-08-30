@@ -32,7 +32,7 @@ python ./data/preprocess.py --dataset_setting "{DATASET_SETTING}"
 
 ## Training
 
->Note: Please update the code if you're not using `wandb` to log experiment data.
+> Note: Please update the code if you're not using `wandb` to log experiment data.
 
 Multiple GPUs:
 
