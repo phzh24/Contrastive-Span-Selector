@@ -62,3 +62,6 @@ python ./src/main.py ./config/multispan-bert.json
 export CUDA_VISIBLE_DEVICES=0
 python ./src/main.py ./config/multispan-bert-prediction.json
 ```
+
+## Paper Checkpoints
+The paper checkpoints for the BERT-base-uncased model can be accessed via [google drive link](https://drive.google.com/file/d/1-uFPGalAb3cUKcW1YGVcobhERh44hcNe/view?usp=drive_link).
